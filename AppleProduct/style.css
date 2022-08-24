@@ -1,0 +1,122 @@
+body{
+    background-color: #90ee90;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    margin: 0 auto;
+      display: flex;
+      margin-top: 5%;
+}
+.product_details{
+    width: 650px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    /* margin: 0 auto; */
+}
+.product_img{
+    width: 290px;
+    height: 500px;
+     position: relative ;
+     left: 254px;
+     top: 55px;
+     padding: 12px;
+     display: flex;
+     flex-direction: column ;
+     /* box-shadow: 15px 5px 25px -10px rgba(0,0,0,0.75); */
+/*  */
+}
+.main_img{
+    flex: 0.7;
+    background-color: #B0FF37;
+    border-radius:  7px 0px 0px;
+
+}
+.first_details{
+    background-color: white;
+    flex: 0.4;
+}
+.second_details{
+    /* background-color: green; */
+    flex: 0.6;
+    margin-top: 12px;
+    padding-left: 40px;
+    
+}
+.second_details h1{
+    color: #2F4F4F;
+    font-size: 30px;
+}
+.currency_text{
+    color: red;
+    font-size:25px;
+}
+.price_text{
+    font-size: 50px;
+    margin-left: 15px;
+}
+.small_fruits{
+    margin-left: 40px;
+}
+.right_img:hover{
+    border: 1px solid black;
+    transform: scale(0.9);
+    cursor: pointer;
+}
+li{
+    font-size: 13px;
+}
+.add_to_cart{
+    color: white;
+    background-color:#CD5C5C;
+    padding: 26px 60px;
+    font-size: 15px;
+    font-weight:bold;
+    border: none;
+    border-radius: 5px;
+    box-shadow:2px 2px 25px -5px grey ;
+    cursor: pointer;
+}
+.social_data{
+    margin-top: 12px;
+    
+}
+.side_fruit{
+   /* background-color: red; */
+   height: 155px;
+   height: 70%;
+}
+.main_apple_img{
+    position: relative;
+    left: -60px;
+}
+.side_small_fruits{
+    display: flex;
+    /* float: right; */
+    justify-content: center;
+    /* margin-left: 50px; */
+    padding: 35px 2px;
+    background-color: white;
+    flex: 0.3;
+    border-radius:0 0 7px 7px ;
+}
+.side_small_fruits img{
+    border: 0.5px solid rgb(126, 121, 121);
+    margin: 2px;
+    width: 38px;
+    height: 38px;
+    border-radius: 5px;
+    /* padding: 5px; */
+}
+.sm_like{
+    float: right;
+    margin-right: 5px;
+}
+.social_data{
+    color: white;
+    font-size: 18px;
+}
+.sm_share{
+    margin-left: 5px;
+
+}
